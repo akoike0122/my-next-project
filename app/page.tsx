@@ -12,6 +12,7 @@ export default function Home() {
           width={100}
           height={20}
           priority
+          
         />
         <div className={styles.intro}>
           <h1>
