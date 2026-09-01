@@ -1,0 +1,13 @@
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: beige;
+}
+
+.title{
+  color: green;
+  font-size: 1.5rem;
+
+}
