@@ -3,7 +3,6 @@ import Date from "@/app/_components/Date";
 import Image from "next/image";
 import styles from "./index.module.css";
 import { News } from "@/app/_libs/microcms";
-import DOMPurify from "isomorphic-dompurify";
 import Link from "next/link";
 
 type Props = {
@@ -11,7 +10,7 @@ type Props = {
 }
 
 export default function Article({ data }: Props) {
-  const sanitizedContent = DOMPurify.sanitize(data.content)
+  const sanitizedContent = data.content
   return (
     <main>
       <h1 className={styles.title}>{data.title}</h1>
