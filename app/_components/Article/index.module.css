@@ -22,6 +22,8 @@
 
 .categoryLink {
   display: flex;
+  gap: 20px;
+  height: 40px;
 }
 
 .thumbnail {
