@@ -3,6 +3,8 @@ import NewsList from "@/app/_components/NewsList";
 import SearchField from "@/app/_components/SerchField";
 import Pagination from "@/app/_components/Pagination";
 
+export const revalidate = 0;
+
 export default async function Page() {
   const { contents: news, totalCount } = await getNewsList();
 
